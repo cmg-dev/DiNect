@@ -1,0 +1,13 @@
+﻿<Window x:Class="DiNect.KinectWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="KinectWindow" Height="600" Width="685" Icon="/DiNect;component/64x64c.bmp">
+    <Grid Name="Griddi" >
+
+        <Image HorizontalAlignment="Left" Margin="10,10,0,0" Name="KinectCamImg" Stretch="Fill" VerticalAlignment="Top" Width="640" Height="480"  />
+        <Canvas HorizontalAlignment="Left" Margin="10,10,0,0" Name="KinectCanvas" VerticalAlignment="Top" Width="640" Height="480" >
+            <Rectangle Height="100" Name="FOV" Stroke="Black" Width="200" Fill="#FFFFA000" Opacity="0.1" Canvas.Left="200" Canvas.Top="200" />
+        </Canvas>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="12,0,0,10" Name="label1" Width="219" Height="40" VerticalAlignment="Bottom" FontSize="20" FontWeight="Bold" />
+    </Grid>
+</Window>
